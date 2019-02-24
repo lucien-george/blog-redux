@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux'; // needed to map state to props
 import { fetchPosts } from '../actions';
 import { bindActionCreators } from 'redux';
